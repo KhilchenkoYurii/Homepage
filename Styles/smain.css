@@ -18,11 +18,9 @@ header {
     margin-right: 30px;
 }*/
 
-header .col.col-md-auto.menu-item{
-    float:right;
-    /*width:300px;
-    height:30px;
-    /*padding: 30px 20px;*/
+header .col.col-md-auto.menu-item {
+    color: black;
+    font-weight: bold;
 }
 header h1{
     font-size:5em;
@@ -33,6 +31,8 @@ header h2{
     margin-left: 40px;
 }
 .navinf a{
+    color:black;
+    font-weight:bold;
     margin-left:40px;
 }
 
@@ -44,10 +44,14 @@ header .menu-item a {
 header .menu-item:hover {
     background-color:antiquewhite;
 }
-
+body .logo {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: aqua;
+}
 body general-inf {
     margin-top: 20px;
     background-color: blueviolet;
-    width: auto;
+    width: 100%;
     max-width: 100%;
 }
