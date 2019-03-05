@@ -1,1 +1,27 @@
-﻿
+﻿header {
+    background-image: url(../Images/1480262568_SakurasounoPetnaKanojo_scr1.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 300px;
+}
+
+    header .col.col-md-auto.menu-item {
+        color: black;
+        font-weight: bold;
+    }
+
+    header h1 {
+        font-size: 5em;
+        margin-left: 40px;
+    }
+
+    header h2 {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+.navinf a {
+    color: black;
+    font-weight: bold;
+    margin-left: 40px;
+}

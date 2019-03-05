@@ -3,9 +3,57 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="../Styles/scontact.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
     <title>Contacts - Yurii Khilchenko</title>
 </head>
 <body>
-
+    <header>
+        <div class="conteiner">
+            <div class="row menu-list">
+                <a class="col col-md-auto menu-item" href="Main.html">Main</a>
+                <a class="col col-md-auto menu-item" href="Contact.html">Contact us</a>
+                <a class="col col-md-auto menu-item" href="Portfolio.html">Portfolio</a>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>Resume</h2>
+                    <h1>Yurii Khilchenko</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <nav class="navinf">
+                        <a href="https://github.com/KhilchenkoYurii" target="_blank">github: KhilchenkoYurii</a>
+                        <a href="mailto:yu.kh414@gmail.com" target="_blank">email: yu.kh414@gmail.com</a>
+                        <a href="https://www.facebook.com/profile.php?id=100002144818312" target="_blank">facebook: Юрій Хільченко</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form action="#contact" method="get" class="contact-form">
+        <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group-2-col-left">
+            <input type="text" id="contact_name" name="contact_name" class="form-control"
+                   placeholder="Name" required />
+        </div>
+        <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group-2-col-right mandatory-field">
+            <input type="email" id="contact_email" name="contact_email" class="form-control"
+                   placeholder="Email" required />
+        </div>
+        <div class="form-group">
+            <input type="text" id="contact_subject" name="contact_subject" class="form-control"
+                   placeholder="Subject" required />
+        </div>
+        <div class="form-group">
+            <textarea id="contact_message" name="contact_message" class="form-control" rows="9"
+                      placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+</form>
 </body>
 </html>
