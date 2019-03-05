@@ -1,26 +1,34 @@
 ﻿header {
-    background-image: url(../Images/1480262568_SakurasounoPetnaKanojo_scr1.jpg);
+    background-image: url(../Images/logo2.jpg);
     background-size: cover;
-    max-width: 100%;
     height: 300px;
+    width:100%;
 }
 
-    header .col.col-md-auto.menu-item {
-        color: black;
-        font-weight: bold;
-    }
+header .col.col-md-auto.menu-item {
+    color: black;
+    font-weight: bold;
+}
 
-    header h1 {
-        font-size: 5em;
-        margin-left: 40px;
-    }
+header h1 {
+    font-size: 5em;
+    margin-left: 40px;
+}
 
-    header h2 {
-        margin-top: 20px;
-        margin-left: 40px;
-    }
+header h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
 .navinf a {
     color: black;
     font-weight: bold;
     margin-left: 40px;
+}
+html{
+    width:100%;
+    padding:0;
+}
+body{
+    padding:0;
+    width:100%;
 }

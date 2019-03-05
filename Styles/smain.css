@@ -3,17 +3,12 @@
     padding: 0;
 }
 
-h
-{
-    overflow: hidden;
-}
 
 header {
-    background-image: url(../Images/1480262568_SakurasounoPetnaKanojo_scr1.jpg);
+    background-image: url(../Images/logo2.jpg);
     background-size: cover;
     max-width: 100%;
     height: 300px;
-
 }
 
 header .col.col-md-auto.menu-item {
@@ -67,4 +62,13 @@ col.inform h4.hh4{
 }
 col.inform p.stitle{
     font-weight:bold;
+}
+html {
+    width: 100%;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    width: 100%;
 }
