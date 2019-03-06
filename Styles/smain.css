@@ -10,7 +10,6 @@ header {
     max-width: 100%;
     height: 300px;
 }
-
 header .col.col-md-auto.menu-item {
     color: black;
     font-weight: bold;
@@ -34,9 +33,6 @@ header .menu-item a {
     text-decoration: none;
     font-size: 1.5em;
 }
-header .menu-item:hover {
-    background-color:antiquewhite;
-}
 body .logo {
     padding-left: 40px;
     padding-right: 40px;
@@ -46,8 +42,8 @@ body .logo {
 body general-inf {
     margin-top: 20px;
     background-color: blueviolet;
-    width: 100%;
-    max-width: 100%;
+    width: 90%;
+    max-width: 90%;
     
 }
 
@@ -66,6 +62,7 @@ col.inform p.stitle{
 html {
     width: 100%;
     padding: 0;
+    margin: 0;
 }
 
 body {

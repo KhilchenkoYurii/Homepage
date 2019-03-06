@@ -24,6 +24,11 @@ header h2 {
     font-weight: bold;
     margin-left: 40px;
 }
+.contact-form{
+    width:50%;
+    margin: 0 auto;
+
+}
 html{
     width:100%;
     padding:0;
